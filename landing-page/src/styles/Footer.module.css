@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333;
+    height: 150px;
+    margin-top: 2em;
+    border-top: 3px solid #111;
+    color: #fff;
+}
+.footer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.midia {
+    display: flex;
+    flex-direction: column;
+}

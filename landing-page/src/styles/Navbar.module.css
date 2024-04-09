@@ -1,0 +1,52 @@
+.navbar {
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background-image: url('/images/rosa.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    position: relative;
+    
+}
+.logo {
+    top: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.image_logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo h1 {
+    text-align: center;
+    margin-top: 2em;
+}
+.link_items{
+    position: relative;
+    list-style: none;
+    top: 200px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.link_items li {
+    font-weight: 700;
+    padding:0 10px 0 10px;
+    color: #dddd;
+    border-bottom: transparent 4px solid;
+    transition: .6s;
+} 
+.link_items li:hover {
+    color: #ffff;
+    border-color: #ffff;
+    
+}
