@@ -1,4 +1,4 @@
-import styles from '../../styles/Footer.module.css';
+import styles from '../styles/Footer.module.css';
 import Image from 'next/image'; 
 
 export default function Footer() {
@@ -17,9 +17,9 @@ export default function Footer() {
                 &copy; 2024
             </p>
             <div className={styles.midia}>
-                <p>Instagran</p>
-                <p>WhatsApp</p>
-                <p>Facebook</p>
+                <a>Instagran</a>
+                <a>WhatsApp</a>
+                <a>Facebook</a>
             </div>
         </footer>
     );

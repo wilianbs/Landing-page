@@ -1,0 +1,22 @@
+.title_container {
+    display: flex;
+    justify-content:start;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+.title_container h1 {
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    margin-right: .4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.produtos_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 95%;
+    margin: 0 auto;
+}
