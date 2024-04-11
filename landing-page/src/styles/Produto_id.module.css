@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;   
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end ;
+    
+    align-items: center;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.descricao h1 {
+    font-size: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px 0px;
+}
+.descricao span {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 4px 0px;
+}
+.descricao p {
+    margin-top: 30px;
+    font-size: 1.2em;
+
+}
+.descricao a {
+    background-color: rgb(84, 250, 51);
+    border-radius: 18px;
+    text-align: center;
+    width: 200px;
+    padding: 6px;
+    margin: 10px;
+}
+.btn button {
+    background-color: rgb(235, 144, 253);
+    border-radius: 18px;
+    padding: 6px;
+    margin: 10px;
+}
+
+.background {
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o contêiner */
+    background-position: center; /* Posiciona a imagem no centro do contêiner */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo seja repetida */
+    opacity: 0.3; /* Define a transparência do elemento e de todos os seus filhos */
+    position: absolute; /* Define a posição absoluta em relação ao elemento pai */
+    top: 200; /* Alinha o topo do contêiner à parte superior do viewport */
+    left: auto; /* Alinha a esquerda do contêiner à parte esquerda do viewport */
+    width: 70%; /* Define a largura do contêiner para ocupar toda a largura do viewport */
+    height: 70%; /* Define a altura do contêiner para ocupar toda a altura do viewport */
+    z-index: -1; /* Move o contêiner para trás dos outros elementos */
+  }

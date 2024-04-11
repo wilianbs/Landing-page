@@ -5,7 +5,7 @@
     padding: 2em 1em;
     margin-bottom: 2em;
     width: 250px;
-    height: 420px;
+    height: 450px;
     border-radius: 1em;
     border: 1px solid rgba(255, 0, 234, 0.418);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
@@ -33,7 +33,7 @@
     align-items: center;
     margin-top: .5em;
     width: 100px;
-    height: 40px;
+    min-height: 35px;
     background-color: rgb(125, 0, 150);
     border-radius: 20px;
     font-weight: 700;
