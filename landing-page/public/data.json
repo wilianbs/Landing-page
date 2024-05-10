@@ -7,7 +7,7 @@
         "resumo": "Apresentamos nossa necessaire premium, projetada para atender todas as suas necessidades de viagem com praticidade e estilo incomparáveis.",
         "descricao": "Equipada com zíper resistente e forrada internamente, esta necessaire não só mantém seus itens seguros, mas também os organiza de forma impecável. Seja para uma escapada romântica ou uma jornada de negócios, a necessaire oferece espaço suficiente para seus produtos de higiene pessoal, maquiagem e acessórios essenciais. Sua combinação de elegância e funcionalidade a torna a escolha perfeita para qualquer ocasião. Não deixe sua próxima viagem sem este item indispensável - adquira já a sua necessaire com zíper e forrada e viaje com confiança!",
         "fotos": "/images/logo.jpg",
-        "imagens":["/images/logo.jpg", "/images/bolsaRosa.jpeg", "/images/rosa.jpg"]
+        "imagens":["/images/bolsaRosa.jpeg", "/images/logo.jpg", "/images/rosa.jpg"]
       },
       {
         "id": 1,
@@ -15,7 +15,8 @@
         "valor": "R$ 45,90",
         "resumo": "Resumo do produto",
         "descricao": "Texto do produto",
-        "fotos": "/images/logo.jpg"
+        "fotos": "/images/logo.jpg",
+        "imagens":["/images/bolsaRosa.jpeg", "/images/logo.jpg", "/images/rosa.jpg"]
       },
       {
         "id": 2,
@@ -23,23 +24,26 @@
         "valor": "R$ 25,90",
         "resumo": "Resumo do produto",
         "descricao": "Texto do produto",
-        "fotos": "/images/logo.jpg"
+        "fotos": "/images/logo.jpg",
+        "imagens":["/images/bolsaRosa.jpeg", "/images/logo.jpg", "/images/rosa.jpg"]
       },
       {
         "id": 3,
-        "nome": "Pastinha",
+        "nome": "Porta Folheto",
         "valor": "R$ 15,90",
         "resumo": "Resumo do produto",
         "descricao": "Texto do produto",
-        "fotos": "/images/logo.jpg"
+        "fotos": "/images/logo.jpg",
+        "imagens":["/images/bolsaRosa.jpeg", "/images/logo.jpg", "/images/rosa.jpg"]
       },
       {
         "id": 4,
         "nome": "Pastinha transparente",
         "valor": "R$ 18,90",
-        "resumo": "Resumo do produto",
+        "resumo": "",
         "descricao": "Texto do produto",
-        "fotos": "/images/logo.jpg"
+        "fotos": "/images/logo.jpg",
+        "imagens":["/images/bolsaRosa.jpeg", "/images/logo.jpg", "/images/rosa.jpg"]
       }
     ]
   }

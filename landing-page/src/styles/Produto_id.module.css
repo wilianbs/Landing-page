@@ -6,17 +6,14 @@
     width: 90%;   
 }
 .image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   margin: auto 0;  
 }
+
 .container_image {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end ;
-    
-    align-items: center;
+    position: relative;
+    min-height: 500px;
 }
 .descricao{
     display: flex;
@@ -29,9 +26,10 @@
     padding: 8px 0px;
 }
 .descricao span {
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: 600;
     padding: 4px 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .descricao p {
     margin-top: 30px;
@@ -49,8 +47,19 @@
 .btn button {
     background-color: rgb(235, 144, 253);
     border-radius: 18px;
+    width: 100px;
     padding: 6px;
     margin: 10px;
+}
+.voltar{
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+}
+.proximo {
+    position: absolute;
+    bottom: 0;
+    left: 210px;
 }
 
 .background {
@@ -65,3 +74,34 @@
     height: 70%; /* Define a altura do contêiner para ocupar toda a altura do viewport */
     z-index: -1; /* Move o contêiner para trás dos outros elementos */
   }
+
+  @media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column-reverse;
+        width: 95%;   
+    }
+    .descricao{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .descricao p {
+        font-size: 1em;  
+    }
+    .container_image {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        min-height: 500px;
+    }
+    .voltar{
+        left: 20%;
+    }
+    .proximo {
+        left: 50% ;
+    }
+    .background { 
+        width: 95%; /* Define a largura do contêiner para ocupar toda a largura do viewport */ 
+      }
+   
+}

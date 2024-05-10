@@ -50,11 +50,7 @@ export default function Produto() {
       setIndiceImagem(indiceImagem - 1);
     }
   };
-  const WhatsApp = () => {
-    return(
-        <a href="https://wa.me/5512991762552"></a>
-    )
-  };
+  
 
   return (
     <div className={style.container} >
@@ -65,7 +61,7 @@ export default function Produto() {
             <span>{produto.valor}</span>
             <p>{produto.descricao}</p>
             
-                    <a href={`https://wa.me/5512991762552?text=Olá, gostaria de saber mais sobre a ${produto.nome}`}>
+                    <a href={`https://wa.me/5512991511546?text=Olá, gostaria de saber mais sobre "${produto.nome}"`}>
                         Comprar pelo WhatsApp
                     </a>
             
@@ -82,8 +78,8 @@ export default function Produto() {
                 
             </div>
             <div className={style.btn}>
-                    <button onClick={imagemAnterior}>Voltar</button>
-                    <button onClick={proximaImagem}>Próximo</button>
+                    <button className={style.voltar} onClick={imagemAnterior}>Voltar</button>
+                    <button className={style.proximo} onClick={proximaImagem}>Próximo</button>
             </div>
             
         </div>
